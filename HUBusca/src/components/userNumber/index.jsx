@@ -1,4 +1,4 @@
-
+import { Route, useHistory } from 'react-router-dom';
 
 
 import {
@@ -8,23 +8,28 @@ import {
 } from './styles';
 
 
-const UserNumbers = props => (
-    <Container>
-        <NumberContainer>
-            <h1>14</h1>
-            <h2>Repositórios</h2>
-        </NumberContainer>
+const UserNumbers = props => {
+    const history = useHistory();
+    const handleOnClick = route => history.push(route);
+    
+    return (
+        <Container>
+            <NumberContainer onClick={() => handleOnClick('/repos')}>
+                <h1>14</h1>
+                <h2>Repositórios</h2>
+            </NumberContainer>
 
-        <NumberContainer>
-            <h1>22</h1>
-            <h2>Seguidores</h2>
-        </NumberContainer>
+            <NumberContainer>
+                <h1>22</h1>
+                <h2>Seguidores</h2>
+            </NumberContainer>
 
-        <NumberContainer>
-            <h1>33</h1>
-            <h2>Seguindo</h2>
-        </NumberContainer>
-    </Container>
-);
+            <NumberContainer>
+                <h1>33</h1>
+                <h2>Seguindo</h2>
+            </NumberContainer>
+        </Container>
+    );
+};
 
 export default UserNumbers;
