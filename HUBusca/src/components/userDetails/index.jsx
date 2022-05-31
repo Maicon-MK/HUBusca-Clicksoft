@@ -1,19 +1,20 @@
-import{
+import {
     Container,
     Name,
     Username,
     Location,
-    Description
-   
+    Id
+
+
 } from './styles';
 
 
-const UserDetails = props =>(
+const UserDetails = props => (
     <Container>
         <Name>{props.name}</Name>
-        <Username>{props.login}</Username>
-        <Description>{props?.bio}</Description>
-        <Location>{props?.location}</Location>
+        <Username>#{props.login}</Username>
+        <Location>Locazição: {props?.location}</Location>
+        <Id>ID: {props?.id}</Id>
     </Container>
 );
 

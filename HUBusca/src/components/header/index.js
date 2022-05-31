@@ -1,4 +1,3 @@
-
 import React, { useState, useContext } from 'react';
 import { FiSearch } from 'react-icons/fi';
 

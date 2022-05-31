@@ -36,7 +36,6 @@ export const HeaderInput = styled.input`
     padding: 0 16px;
     color: #444;
     transition: .4s ease;
-
     &:focus {
         outline: none;
         width: 220px;
@@ -56,7 +55,6 @@ export const HeaderSearchButton = styled.button`
     justify-content: center;
     color: #FFF;
     transition: ease .3s;
-
     &:hover {
         transform: scale(1.05);
         transition: ease .3s;

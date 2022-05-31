@@ -3,9 +3,10 @@ import {
     ProfilePicture
 } from './styles';
 
-const UserPicture = props =>(
+const UserPicture = props => (
     <Container>
         <ProfilePicture src={props?.url} alt={props?.alternativeText} />
+
     </Container>
 );
 

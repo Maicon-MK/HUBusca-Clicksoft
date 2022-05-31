@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-    export const Container = styled.div`
+export const Container = styled.div`
      width:100%;
     height:200px;
     display:flex;
@@ -9,7 +9,7 @@ import styled from 'styled-components';
     justify-content:center;
     `
 
-    export const ProfilePicture = styled.img`
+export const ProfilePicture = styled.img`
     width: 130px;
     height: 130px;
     border-radius: 50%;
