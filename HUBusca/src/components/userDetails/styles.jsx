@@ -18,6 +18,13 @@ export const Container = styled.div`
    font-weight: 700;
    color: #444;
    `
+   export const Location = styled.h2`
+   width: 100%;
+   text-align: center;
+   font-size: 13px;
+   font-weight: 500;
+   color:#777;
+   `
 
    export const Username = styled.h2`
    width: 100%;
@@ -26,6 +33,7 @@ export const Container = styled.div`
    font-weight: 500;
    color:#777;
    `
+   
 
 
    export const Description = styled.p`
