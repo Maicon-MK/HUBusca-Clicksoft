@@ -45,7 +45,7 @@ Repositorios (Para ter acesso ao repositório bastar por o username do usuário 
 Apos a instalação utilize o comando (CD HUBusca) e para roda (yarn start).
   </h4>
   
- Esse foi um desafio desenvolvido por João Michael para empresa ClickSoft.
+ Esse foi um desafio desenvolvido por João Michael para empresa ClickSoft.   
   
 
 
