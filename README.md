@@ -38,11 +38,11 @@ Repositorios (Para ter acesso ao repositório bastar por o username do usuário 
   Api Ultilizada: api.github.com
   </li>
   <li>
-  Hospedagem Heroku: 
+  Hospedagem Heroku: https://hubusca-clicksoft.herokuapp.com
   </li>
      <h4>
   Em caso de download do aplicativo HUBusca, instale o yarn no terminal com o comando (yarn install).
-Apos a instalação utilize o comando (CD HUBusca) e para roda (yarn start).
+Apos a instalação utilize o comando (dev start)  para roda.
   </h4>
   
  Esse foi um desafio desenvolvido por João Michael para empresa ClickSoft.
