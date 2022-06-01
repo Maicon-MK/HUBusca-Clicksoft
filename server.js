@@ -4,19 +4,19 @@ const { resolve } = requeri('path')
 const path = require('path')
 const app = express();
 
-app.use('/',
+app.use(
     express.static(
-        resolve(
+        path.join(
             __dirname,
-            './build'
+            'build'
         )
     )
 )
  app.get('/*', (req, res) =>{
-     res.sendfile(path.join(__dirname, 'build','index.html'));
+     res.sendFile(path.join(__dirname, 'build','index.html'));
  })
 
-app.use(express.static(path.join(__dirname, 'build')));
+
 
 
 app.listen(process.env.PORT || 3000, (err) =>{
