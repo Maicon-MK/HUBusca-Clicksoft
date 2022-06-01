@@ -1,6 +1,6 @@
 const exp = require('constants');
 const express = require('express');
-const { resolve } = requeri('path')
+const { resolve } = require('path')
 const path = require('path')
 const app = express();
 
